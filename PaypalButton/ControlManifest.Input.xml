@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <manifest>
-  <control namespace="Codebug" constructor="PaypalButton" version="0.0.4" display-name-key="PaypalButton" description-key="PaypalButton description" control-type="standard" preview-image="img/preview.png">
+  <control namespace="Codebug" constructor="PaypalButton" version="0.0.5" display-name-key="PaypalButton" description-key="PaypalButton description" control-type="standard" preview-image="img/preview.png">
     <property name="sampleProperty" display-name-key="Property_Display_Key" description-key="Property_Desc_Key" of-type="SingleLine.Text" usage="bound" required="true" />
     <resources>
       <code path="index.ts" order="1" />

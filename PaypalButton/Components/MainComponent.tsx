@@ -32,7 +32,7 @@ export const MainComponent = (props: Props) => {
 
     React.useMemo(() => {
         const loadPaypalScript = async () => {
-            const paypalScript = await loadScript({ "client-id": props.paypalClientId })
+            const paypalScript = await loadScript({ "client-id": props.paypalClientId})
                 .catch(error => console.error('Error ocurred while loading paypal script', error));
             if (paypalScript) {
                 setPaypalNameSpace(paypalScript as PayPalNamespace);
