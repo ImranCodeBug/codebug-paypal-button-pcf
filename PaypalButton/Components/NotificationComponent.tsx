@@ -30,8 +30,6 @@ const getNotificationStyle = (alertType : notificationType) => {
     }
 }
 
-
-
 export const NotificationComponent = (props: Props) => {
     const {alertColor, alertHeading} = getNotificationStyle(props.alertType);
 
