@@ -94,7 +94,7 @@ export const MainComponent = (props: Props) => {
 
     return (
         <div className='container-fluid'>
-            {isValueVisible ? <PriceComponent></PriceComponent> : null}
+            {isValueVisible ? <PriceComponent valueRef={valueRef}></PriceComponent> : null}
 
             <div className="mt-3" id="btnPaypal"></div>
 
