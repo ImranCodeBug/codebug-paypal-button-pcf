@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <manifest>
-  <control namespace="Codebug" constructor="PaypalButton" version="0.0.8" display-name-key="PaypalButton" description-key="PaypalButton description" control-type="standard" preview-image="img/preview.png">
+  <control namespace="Codebug" constructor="PaypalButton" version="0.0.9" display-name-key="PaypalButton" description-key="PaypalButton description" control-type="standard" preview-image="img/preview.png">
     <property name="TotalPayable" display-name-key="TotalPayable" description-key="A decimal field with total payable" of-type="Decimal" usage="bound" required="true" />
     <resources>
       <code path="index.ts" order="1" />
